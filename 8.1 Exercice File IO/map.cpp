@@ -136,35 +136,51 @@ Map Map::CreateMap(std::string fileName)
 	inFile.open("Map1.txt");
 
 	//lis ligne par ligne
+	//char c;
+	//while(inFile >> c)
+	//{
+	//	std::cout << c << "\n";
+	//}
+	std::vector<std::vector<char>> test;
 	
 	for (std::string line; getline(inFile, line); )
-	{
-		std::cout << line << "\n";
-	}
 
+	{		
+		//std::cout << line << "\n";
+
+		std::vector<char> vLine;
+
+		for(int i = 0; i < line.size(); i++)
+		{
+			std::cout << line[i] << " ";
+			vLine.push_back(line[i]);
+		}
+
+		test.push_back(vLine);
+
+		std::cout << "\n";
+	}
+	//
 	// appel le constructeur
+
+	
 	
 	inFile.close();
+	return Map(test);
 };
 
-//void Map::Print()
-//{
-//	std::ofstream outFile;
-//
-//	outFile.open("Map1.txt");
-//	system("Color 0C");
-//	for (int i = 0; i < map.size(); i++)
-//	{
-//		for (int j = 0; j < map[i].size(); j++)
-//		{
-//
-//			outFile << map[i][j];
-//		}
-//		outFile << "\n";
-//
-//	}
-//	outFile.close();
-//}
+void Map::Print()
+{
+	system("Color 0C");
+	for (int i = 0; i < map.size(); i++)
+	{
+		for (int j = 0; j < map[i].size(); j++)
+		{
+			std::cout << map[i][j];
+		}
+		std::cout << "\n";
+	}
+}
 
 
 

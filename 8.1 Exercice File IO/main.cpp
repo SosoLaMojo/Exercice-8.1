@@ -26,6 +26,7 @@ int main() {
 	//Map map = Map(player.xPlayerPosition, player.yPlayerPosition);
 	Map map = Map::CreateMap("Map1.txt");
 
+	//system("pause");
 
 	bool isRunning = true;
 	while (isRunning)
@@ -38,8 +39,7 @@ int main() {
 		map.isMistery = false;
 
 		system("cls");
-		//map.Print();
-		map.CreateMap();
+		map.Print();
 		map.ShowMenu(player.health_);
 		map.GiveKey(potion.potionsLeft, Ressource::mystery, map.keyXPosition, map.keyYPosition);
 		player.AskUserInput();

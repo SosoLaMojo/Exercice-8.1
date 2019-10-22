@@ -10,7 +10,7 @@ public:
 
 	static Map CreateMap(std::string fileName);
 
-	std::vector<std::vector<char> >map;
+	std::vector<std::vector<char>>map;
 	bool isObstacle = false;
 	bool isEnemy = false;
 	bool isPotion = false;
