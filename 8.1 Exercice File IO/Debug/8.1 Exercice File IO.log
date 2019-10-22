@@ -1,0 +1,8 @@
+﻿  main.cpp
+  map.cpp
+C:\Users\Solange\source\repos\SAE Institute\8. Exercice File IO\8.1 Exercice File IO\8.1 Exercice File IO\8.1 Exercice File IO\main.cpp(42,6): warning C4551: liste d'arguments manquante dans l'appel de fonction
+C:\Users\Solange\source\repos\SAE Institute\8. Exercice File IO\8.1 Exercice File IO\8.1 Exercice File IO\8.1 Exercice File IO\map.cpp(24,12): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+C:\Users\Solange\source\repos\SAE Institute\8. Exercice File IO\8.1 Exercice File IO\8.1 Exercice File IO\8.1 Exercice File IO\map.cpp(29,21): warning C4018: '<' : incompatibilité signed/unsigned
+  Génération de code en cours...
+C:\Users\Solange\source\repos\SAE Institute\8. Exercice File IO\8.1 Exercice File IO\8.1 Exercice File IO\8.1 Exercice File IO\map.cpp(176,12): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+C:\Users\Solange\source\repos\SAE Institute\8. Exercice File IO\8.1 Exercice File IO\8.1 Exercice File IO\8.1 Exercice File IO\map.cpp(151): error C4716: 'Map::CreateMap' : doit retourner une valeur
